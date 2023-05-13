@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Didion-style Text Analyzer</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Text Analyzer</h1>
+    <p>Based on <a href="https://www.newyorker.com/magazine/1998/11/09/last-words-6">Joan Didion's analysis of Hemingway</a>.</p>
+    <textarea id="textInput" rows="10" cols="30"></textarea>
+    <button onclick="analyze()">Analyze</button>
+    <p id="wordCount"></p>
+    <p id="commaCount"></p>
+    <h2>Word Lengths</h2>
+    <canvas id="wordLengthChart"></canvas>
+
+    <h2>Sentence Lengths</h2>
+    <canvas id="sentenceLengthChart"></canvas>
+</body>
+</html>
